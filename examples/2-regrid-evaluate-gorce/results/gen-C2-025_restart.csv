@@ -1,0 +1,7 @@
+# Metric Evaluation
+# Base Directory: /Users/matt/work/nemo/nemo-spinup-bench/examples/2-regrid-evaluate-gorce/generated/fine
+# Mesh Mask: /Users/matt/work/nemo/nemo-spinup-bench/examples/2-regrid-evaluate-gorce/generated/fine/mesh_mask.nc
+# Restart File: /Users/matt/work/nemo/nemo-spinup-bench/examples/2-regrid-evaluate-gorce/generated/fine/generated_restart_C2_fine.nc
+#
+timestamp,check_density_from_file,check_density_computed,temperature_500m_30NS_metric,temperature_BWbox_metric,temperature_DWbox_metric,ACC_Drake_metric,ACC_Drake_metric_2,NASTG_BSF_max
+21312000.0,0.192032,0.216127,10.586050,3.543219,3.654454,0.000000,0.000000,0.000000

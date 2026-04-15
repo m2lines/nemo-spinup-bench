@@ -1,0 +1,6 @@
+# gen-setup-100.yaml
+# Evaluation configuration for generated 1-degree (coarse) restart files
+
+mesh_mask: mesh_mask.nc
+
+restart_files: 'generated_restart_C2_coarse'

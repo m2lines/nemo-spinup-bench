@@ -1,0 +1,6 @@
+# Metric Evaluation
+# Base Directory: /Users/matt/work/nemo/nemo-spinup-bench/examples/2-regrid-evaluate-gorce/generated/fine
+# Mesh Mask: /Users/matt/work/nemo/nemo-spinup-bench/examples/2-regrid-evaluate-gorce/generated/fine/mesh_mask.nc
+# Restart File: /Users/matt/work/nemo/nemo-spinup-bench/examples/2-regrid-evaluate-gorce/generated/fine/generated_restart_C2_fine.nc
+#
+metric

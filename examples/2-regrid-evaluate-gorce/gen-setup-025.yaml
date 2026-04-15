@@ -1,0 +1,6 @@
+# gen-setup-025.yaml
+# Evaluation configuration for generated 0.25-degree (fine) restart files
+
+mesh_mask: mesh_mask.nc
+
+restart_files: 'generated_restart_C2_fine'

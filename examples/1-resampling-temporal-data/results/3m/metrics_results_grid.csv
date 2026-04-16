@@ -1,0 +1,23 @@
+# Metric Evaluation
+# Base Directory: /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled
+# Mesh Mask: /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/mesh_mask.nc
+# Restart File: /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_35524800_restart.nc
+# Output Files:
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_3m_grid_T_3D.nc
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_3m_grid_T_2D.nc
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_3m_grid_U_3D.nc
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_3m_grid_V_3D.nc
+#
+timestamp,check_density_from_file,temperature_500m_30NS_metric,temperature_BWbox_metric,temperature_DWbox_metric,ACC_Drake_metric,ACC_Drake_metric_2,NASTG_BSF_max,check_density_computed
+3060-02-16 00:00:00,Error: 'density',10.347135,4.330278,5.461174,210.724777,210.724777,117.093681,0.006133
+3060-05-16 00:00:00,Error: 'density',10.322135,4.336028,5.458510,199.894827,199.894827,81.332292,0.006059
+3060-08-16 00:00:00,Error: 'density',10.306163,4.331605,5.457203,204.404394,204.404394,85.394232,0.005690
+3060-11-16 00:00:00,Error: 'density',10.271722,4.326930,5.450287,199.363602,199.363602,76.178012,0.006755
+3061-02-16 00:00:00,Error: 'density',10.242454,4.329960,5.443476,202.670890,202.670890,83.003612,0.006137
+3061-05-16 00:00:00,Error: 'density',10.221691,4.338875,5.437388,201.998197,201.998197,116.342320,0.005994
+3061-08-16 00:00:00,Error: 'density',10.231701,4.333274,5.436454,204.129243,204.129243,123.458716,0.005648
+3061-11-16 00:00:00,Error: 'density',10.233145,4.324831,5.435897,206.683000,206.683000,111.875937,0.006828
+3062-02-16 00:00:00,Error: 'density',10.204502,4.329240,5.430999,203.607449,203.607449,91.602471,0.006157
+3062-05-16 00:00:00,Error: 'density',10.176245,4.335364,5.426814,188.550916,188.550916,89.367804,0.005865
+3062-08-16 00:00:00,Error: 'density',10.166736,4.332295,5.425148,201.371671,201.371671,113.614304,0.005642
+3062-11-16 00:00:00,Error: 'density',10.132123,4.327596,5.418971,208.786226,208.786226,130.506701,0.006765

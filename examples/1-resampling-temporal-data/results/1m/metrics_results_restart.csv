@@ -1,0 +1,12 @@
+# Metric Evaluation
+# Base Directory: /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled
+# Mesh Mask: /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/mesh_mask.nc
+# Restart File: /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_35524800_restart.nc
+# Output Files:
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_1m_grid_T_3D.nc
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_1m_grid_T_2D.nc
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_1m_grid_U_3D.nc
+#   - /rds/project/rds-DKRMHAHoC3M/nemo/data/DINO/etienne_restart3_temporal_cadence/nemo-spinup-bench/examples/1-resampling-temporal-data/resampled/DINO_1m_grid_V_3D.nc
+#
+timestamp,check_density_from_file,check_density_computed,temperature_500m_30NS_metric,temperature_BWbox_metric,temperature_DWbox_metric,ACC_Drake_metric,ACC_Drake_metric_2,NASTG_BSF_max
+3.55248e+07,0.000398,0.000505,10.348079,4.328142,5.460661,220.155777,220.155777,97.056275

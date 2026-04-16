@@ -1,0 +1,23 @@
+# DINO-evaluation-3m.yaml
+# Configured for the 3-month resampled data
+
+mesh_mask: mesh_mask.nc
+
+restart_files: 'restart'
+
+output_variables:
+  temperature:
+    file: resampled/DINO_3m_grid_T_3D.nc
+    var: toce_inst
+  salinity:
+    file: resampled/DINO_3m_grid_T_3D.nc
+    var: soce_inst
+  ssh:
+    file: resampled/DINO_3m_grid_T_2D.nc
+    var: ssh
+  velocity_u:
+    file: DINO_3m_grid_U_3D.nc
+    var: uoce
+  velocity_v:
+    file: DINO_3m_grid_V_3D.nc
+    var: voce

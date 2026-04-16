@@ -1,0 +1,20 @@
+# DINO-evaluation-10d.yaml
+# Configured for the 10-day resampled data
+
+mesh_mask: mesh_mask.nc
+
+restart_files: 'restart'
+
+output_variables:
+  temperature:
+    file: DINO_10d_grid_inst_T_3D.nc
+    var: toce_inst
+  salinity:
+    file: DINO_10d_grid_inst_T_3D.nc
+    var: soce_inst
+  velocity_u:
+    file: DINO_10d_grid_inst_U_3D.nc
+    var: uoce_inst
+  velocity_v:
+    file: DINO_10d_grid_inst_V_3D.nc
+    var: voce_inst
